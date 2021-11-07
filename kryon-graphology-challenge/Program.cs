@@ -43,6 +43,8 @@ namespace kryon_graphology_challenge
             // TODO: STAGE 3 - find the connections between the outputs above //
             Console.WriteLine("\nCan you find the connection between the outputs above?");
 
+            Console.WriteLine("\nAll these people were leaders, that grounded/expanded US/Russian Empire in 18 century");
+
             // TODO: STAGE 4 - submit your answers, repo and CV, and join us for a cup of coffee //
             Console.WriteLine("\nSend us your solution with the github repo and your CV to challenge@kryonsystems.com and wait for our call!\n");
             Console.ReadLine();
