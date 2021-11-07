@@ -26,14 +26,14 @@ namespace kryon_graphology_challenge
             //                       \______/                     
 
             // TODO: STAGE 1 - read and understand what this code is suppose to do //
-            string[] paths = { "demo-image-1.jpeg" };
+            string[] paths = { "demo-image-1.jpeg", "demo-image-2.jpeg", "demo-image-3.jpeg", "demo-image-4.jpeg", "demo-image-5.jpeg" };
 
             foreach (string path in paths) {
                 Console.WriteLine("\nReading challenge file " + path + "...\n");
                 var process = HandwritingAnalyzer.ReadHandwrittenText("./Image-files/" + path);
                 process.Wait();
                 JToken result = process.Result;
-                // TODO: STAGE 2 - fix the code so it prints the wanted results //
+                // TODO: STAGE 2 - fixed the code so it prints the wanted results //
                 // WANT TO ANALYZE HUGE AMOUNTS OF TEXT 
                 // AND UTILIZE IT TO PARTICIPATE THE NEXT
                 // INDUSTRIAL REVOLUTION? 
