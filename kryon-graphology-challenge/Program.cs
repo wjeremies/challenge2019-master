@@ -41,18 +41,6 @@ namespace kryon_graphology_challenge
                  var text = token["recognitionResults"].FirstOrDefault()?["lines"].FirstOrDefault()?["text"];
                  Console.WriteLine(header + Environment.NewLine + text.ToString() + Environment.NewLine);
              });
-            //foreach (string path in paths) {
-            //    Console.WriteLine("\nReading challenge file " + path + "...\n");
-            //    var process = HandwritingAnalyzer.ReadHandwrittenText("./Image-files/" + path);
-            //    process.Wait();
-            //    JToken token = process.Result;
-            //    // TODO: STAGE 2 - fixed the code so it prints the wanted results //
-            //    // WANT TO ANALYZE HUGE AMOUNTS OF TEXT 
-            //    // AND UTILIZE IT TO PARTICIPATE THE NEXT
-            //    // INDUSTRIAL REVOLUTION? 
-            //    var text = token["recognitionResults"].FirstOrDefault()?["lines"].FirstOrDefault()?["text"];
-            //    Console.WriteLine(text.ToString());
-            //}
 
             // TODO: STAGE 3 - find the connections between the outputs above //
             Console.WriteLine("\nCan you find the connection between the outputs above?");
